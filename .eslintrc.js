@@ -4,7 +4,7 @@ module.exports = {
 	env: {
 		browser: true,
 		es2021: true,
-		node: true
+		node: true,
 	},
 	extends: [
 		"next/core-web-vitals",
@@ -12,50 +12,38 @@ module.exports = {
 		"eslint:recommended",
 		"plugin:react/recommended",
 		"plugin:@typescript-eslint/recommended",
-		"plugin:tailwindcss/recommended"
+		"plugin:tailwindcss/recommended",
 	],
 	overrides: [
 		{
-			"files": ["*.ts", "*.tsx"],
-			"parser": "@typescript-eslint/parser"
-		}
+			files: ["*.ts", "*.tsx"],
+			parser: "@typescript-eslint/parser",
+		},
 	],
 	parser: "@typescript-eslint/parser",
 	parserOptions: {
 		ecmaVersion: "latest",
-		sourceType: "module"
+		sourceType: "module",
 	},
-	plugins: [
-		"react",
-		"@typescript-eslint",
-		"tailwindcss"
-	],
+	plugins: ["react", "@typescript-eslint", "tailwindcss"],
 	rules: {
-		indent: [
-			"error",
-			"tab"
-		],
-		quotes: [
-			"error",
-			"double"
-		],
-		semi: [
-			"error",
-			"always"
-		],
+		indent: ["error", "tab"],
+		quotes: ["error", "double"],
+		semi: ["error", "never"],
+		"jsx-quotes": ["error", "prefer-double"],
 		"no-console": "warn",
 		"no-unused-vars": "warn",
 		"tailwindcss/no-custom-classname": "off",
-		"react/react-in-jsx-scope": "off"
+		"react/react-in-jsx-scope": "off",
 	},
 	settings: {
 		tailwindcss: {
 			callees: ["cn"],
-			config: "tailwind.config.ts"
+			config: "tailwind.config.ts",
 		},
 		next: {
-			rootDir: ["./"]
-		}
+			rootDir: ["./"],
+		},
 	},
 	ignorePatterns: [
 		"node_modules/",
@@ -64,5 +52,6 @@ module.exports = {
 		"public/",
 		"dist/",
 		".cache/",
-	]
-};
+	],
+}
+
