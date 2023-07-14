@@ -2,7 +2,7 @@
 const nextConfig = {
 	output: "export",
 	images: {
-		domains: ["cdn.myanimelist.net"],
+		unoptimized: true,
 	},
 }
 

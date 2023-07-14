@@ -61,7 +61,7 @@ export default async function Page() {
 				<p className="text-center text-sm text-gray-500">
 					Made with ❤️ by {/* on click open new page */}
 					<a
-						className="font-bold text-white"
+						className="font-bold text-card-foreground"
 						href="https://twitter.com/Zuxaw"
 						target="_blank"
 						rel="noreferrer"

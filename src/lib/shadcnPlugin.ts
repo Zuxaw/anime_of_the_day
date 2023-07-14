@@ -6,25 +6,6 @@ const shadcnPlugin = plugin(
 	({ addBase }) => {
 		addBase({
 			":root": {
-				"--background": "0 0% 100%",
-				"--foreground": "201 50% 10%",
-				"--muted": "210 40% 96.1%",
-				"--muted-foreground": "215.4 16.3% 46.9%",
-				"--popover": "0 0% 100%",
-				"--popover-foreground": "222.2 47.4% 11.2%",
-				"--border": "214.3 31.8% 91.4%",
-				"--input": "214.3 31.8% 91.4%",
-				"--card": "0 0% 100%",
-				"--card-foreground": "222.2 47.4% 11.2%",
-				"--secondary": "210 40% 90%",
-				"--secondary-foreground": "222 47% 11.2%",
-				"--accent": "210 40% 90%",
-				"--accent-foreground": "222.2 47.4% 11.2%",
-				"--destructive": "0 100% 40%",
-				"--ring": "215 20.2% 65.1%",
-				"--radius": "0.5rem",
-			},
-			".dark": {
 				"--background": "215 50% 7%",
 				"--foreground": "213 31% 91%",
 				"--muted": "223 47% 11%",
