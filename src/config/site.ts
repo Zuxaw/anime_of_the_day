@@ -1,10 +1,10 @@
 export type SiteConfig = typeof siteConfig
 
 export const siteConfig = {
-	name: "Next.js",
-	title: "Next.js Starter Template",
+	name: "AOD",
+	title: "Anime of the Day",
 	description:
-		"Next.js starter template with TypseScript, ESLint, Prettier, Tailwind CSS, and Shadcn/ui",
+		"Anime of the Day is a website that shows you in your local time what anime is airing today and in the week.",
 	mainNav: [
 		{
 			title: "Home",
@@ -12,6 +12,6 @@ export const siteConfig = {
 		},
 	],
 	links: {
-		github: "https://github.com/A7med3bdulBaset",
+		github: "https://github.com/Zuxaw",
 	},
 }
