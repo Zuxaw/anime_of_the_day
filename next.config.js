@@ -1,6 +1,10 @@
 /** @type {import('next').NextConfig} */
-
-export const images = {
-	domains: ["cdn.myanimelist.net"],
+const nextConfig = {
+	output: "export",
+	images: {
+		domains: ["cdn.myanimelist.net"],
+	},
 }
+
+module.exports = nextConfig
 
