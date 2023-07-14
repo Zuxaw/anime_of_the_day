@@ -2,7 +2,6 @@
 "use client"
 
 import Image from "next/image"
-import { getStreamingLink } from "@/services/getStreamingLink"
 import { DateTime } from "luxon"
 
 import { Anime } from "@/types/anime"
@@ -115,12 +114,6 @@ const convertDateToYourLocalTimeZone = (
 	return formattedDateTime
 }
 
-const handleClicked = async (id: Anime["mal_id"]) => {
-	const link = await getStreamingLink(id)
-	console.log(link)
-	// window.open(link, "_blank")
-}
-
 export default function DailyAnime({ animes, day }: Props) {
 	const currentDate = new Date()
 	return (
@@ -150,8 +143,6 @@ export default function DailyAnime({ animes, day }: Props) {
 								<div
 									className="m-4 flex flex-col items-center justify-center space-y-3"
 									key={anime.mal_id}
-									// open url in new tab fr
-									onClick={() => handleClicked(anime.mal_id)}
 								>
 									<div className="relative cursor-pointer overflow-hidden rounded-md">
 										{new Date(airedFrom) > currentDate && (

@@ -34,7 +34,7 @@ yarn create next-app -e https://github.com/A7med3bdulBaset/next-template
 
 ## Scripts
 
-This template uses `yarn` as the package manager. If you want to use other package managers, you can delete `yarn-lock.yaml` and run `npm install` or `yarn install`.
+This template uses `yarn` as the package manager. 
 
 - `dev`: Start the development server
 - `build`: Build for production

@@ -1,6 +1,6 @@
-import colors from "tailwindcss/colors";
-import { fontFamily } from "tailwindcss/defaultTheme";
-import plugin from "tailwindcss/plugin";
+import colors from "tailwindcss/colors"
+import { fontFamily } from "tailwindcss/defaultTheme"
+import plugin from "tailwindcss/plugin"
 
 const shadcnPlugin = plugin(
 	({ addBase }) => {
@@ -43,7 +43,7 @@ const shadcnPlugin = plugin(
 				"--ring": "216 34% 17%",
 				"--radius": "0.5rem",
 			},
-		});
+		})
 
 		addBase({
 			"*": {
@@ -53,7 +53,7 @@ const shadcnPlugin = plugin(
 				"@apply bg-background text-foreground": {},
 				"font-feature-settings": `"rlig" ${1}, "calt" 1`, // This ${1} to make prettier happy
 			},
-		});
+		})
 	},
 	{
 		theme: {
@@ -126,6 +126,6 @@ const shadcnPlugin = plugin(
 			},
 		},
 	}
-);
+)
 
-export default shadcnPlugin;
+export default shadcnPlugin
