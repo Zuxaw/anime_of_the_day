@@ -2,7 +2,6 @@ import "@/styles/globals.css"
 
 import { Metadata } from "next"
 import { Inter } from "next/font/google"
-import Head from "next/head"
 
 import { siteConfig } from "@/config/site"
 import { cn } from "@/lib/utils"
@@ -20,8 +19,8 @@ export const metadata: Metadata = {
 		{ media: "(prefers-color-scheme: dark)", color: "black" },
 	],
 	icons: {
-		icon: "/logo.png",
-		shortcut: "/logo.png",
+		icon: "/out/logo.png",
+		shortcut: "/out/logo.png",
 		apple: "/apple-touch-icon.png",
 	},
 }
@@ -36,9 +35,6 @@ export default function RootLayout({ children }: RootLayoutProps) {
 	return (
 		<html lang="en" suppressHydrationWarning>
 			<body className={cn("min-h-screen antialiased", inter.className)}>
-				<Head>
-					<link rel="shortcut icon" href="/logo.png" />
-				</Head>
 				<Providers>
 					{children}
 					<TailwindIndicator />
