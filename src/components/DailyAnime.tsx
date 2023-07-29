@@ -1,5 +1,5 @@
 // component for daily anime
-"use client"
+// "use client"
 
 import Image from "next/image"
 import { DateTime } from "luxon"
