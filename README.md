@@ -1,36 +1,12 @@
-# Next.js Starter Template
+# Anime of the day
+Just a tool to have a planning of animes depending your local time zone made with NextJS
 
-This template is up to Next.js 13.4.7. Please run `npm update` after creating your project.
+https://zuxaw.github.io/anime_of_the_day/
 
-[![CI-check](https://github.com/A7med3bdulBaset/next-template/actions/workflows/CI.yml/badge.svg)](https://github.com/A7med3bdulBaset/next-template/actions/workflows/CI.yml)
+<img width="1186" alt="image" src="https://github.com/Zuxaw/anime_of_the_day/assets/82362374/d4786ab9-db03-428e-82d5-90f589e92df6">
+<img width="1194" alt="image" src="https://github.com/Zuxaw/anime_of_the_day/assets/82362374/5b425fa7-7a15-4ded-9124-792e0a50d677">
 
-> **Note**: When you use this template, VScode will prompt you to install recommended extensions and settings.
 
-## Features
-
-- Next.js 13 App Directory
-- Tailwind CSS and [Shadcn/ui](https://ui.shadcn.com)
-- Icons from [Lucide](https://lucide.dev)
-- Dark mode with `next-themes`
-
-- Github Actions for CI
-- VSCode recommended settings & extensions
-- ESLint
-- Prettier with sorting imports
-- Tailwind CSS class sorting, merging and linting.
-
-## Usage
-
-```bash
-# with yarn (recommended)
-yarn dlx create next-app -e https://github.com/A7med3bdulBaset/next-template
-
-# with npm
-npx create-next-app -e https://github.com/A7med3bdulBaset/next-template
-
-# with yarn
-yarn create next-app -e https://github.com/A7med3bdulBaset/next-template
-```
 
 ## Scripts
 
@@ -52,5 +28,5 @@ Inspired by [next-template](https://github.com/shadcn/next-template) by [Shadcn]
 
 ## Insites
 
-![Alt](https://repobeats.axiom.co/api/embed/8559085c256a6009a5da6a6c4b1983aafacbc289.svg "Repobeats analytics image")
+
 
