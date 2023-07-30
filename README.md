@@ -22,11 +22,5 @@ This template uses `yarn` as the package manager.
 - `typecheck`: Check types
 - `ci-check`: Run all checks
 
-## Inspiration
-
-Inspired by [next-template](https://github.com/shadcn/next-template) by [Shadcn](https://github.com/shadcn)
-
-## Insites
-
 
 
